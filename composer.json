@@ -1,0 +1,23 @@
+{
+    "name": "mvc/blog",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\Blog\\": "src/",
+            "App\\": "App/",
+            "Config\\": "Config/",
+            "Core\\": "Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yulia Urmash",
+            "email": "yuliaurmash@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "larapack/dd": "^1.1",
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*"
+    }
+}
