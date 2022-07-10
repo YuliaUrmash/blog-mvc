@@ -1,0 +1,22 @@
+{
+    "name": "mvc/blog",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\Blog\\": "src/",
+            "App\\": "App/",
+            "Config\\": "Config/",
+            "Core\\": "Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yulia Urmash",
+            "email": "yuliaurmash@gmail.com"
+        }
+    ],
+    "require": {
+        "larapack/dd": "1.0",
+        "symfony/var-dumper": "6.0.9",
+
+    }
+}
